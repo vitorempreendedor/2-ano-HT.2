@@ -1,2 +1,2 @@
 # 2-ano-HT.2
-blob:https://web.whatsapp.com/daed3166-6a0d-4486-a77b-4309e702fbb0
+https://drive.google.com/file/d/19BpIDiw-SHgu9NrIB2956AVVeMuo2Mps/view?usp=drive_link
