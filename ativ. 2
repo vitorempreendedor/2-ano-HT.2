@@ -1,0 +1,86 @@
+
+1.
+n1 = float(input("Digite sua nota 1: "))
+n2 = float(input("Digite sua nota 2:  "))
+n3 = float(input("Digite sua nota 3:  "))
+n4 = float(input("Digite sua nota 4:  "))
+mediaAritc = (n1+n2+n3+n4)/4
+print("Sua média é: ", round(mediaAritc))
+if mediaAritc == 0 in mediaAritc <=3.9:
+    print("Em processo de Aprendizagem (Reprovado)")
+elif mediaAritc == 4 in mediaAritc <= 7.9:
+    print("Recuperação")
+else:
+    print("Aprovado!")
+    
+2.
+n1 = float(input("Digite sua nota 1: "))
+n2 = float(input("Digite sua nota 2:  "))
+n3 = float(input("Digite sua nota 3:  "))
+n4 = float(input("Digite sua nota 4:  "))
+mediaAritc = (n1+n2+n3+n4)/4
+print("Sua média é: ", round(mediaAritc))
+if mediaAritc == 0 in mediaAritc <=3.9:
+    print("Em processo de Aprendizagem (Reprovado)")
+elif mediaAritc == 4 in mediaAritc <= 7.9:
+    print("Recuperação")
+else:
+    print("Aprovado!")
+    
+4.
+n=int(input("Digite um numero:"))
+if n % 2 == 0:
+    print("o numero é par")
+else:
+    print(" o numero é impar")
+    
+5.
+kg= float(input("Digite a quantidade de peso do peixe em kilos9: "))
+if kg <= 50:
+    print("Não pagará multa!")
+elif kg> 50:
+    excesso = (kg-50)*4
+print("O valor do excesso é de: R$", round(excesso,2), " reais")
+
+6.
+c = float(input("Escreva seu codigo: --> "))
+n = float(input("Escreva sua horas trabalhadas: --> "))
+vhoras = n*10
+if vhoras > 50:
+resto1 = n-50
+vresto = resto1*20
+print("o seu salario é: ", vhoras, "\n valor do excesso é: ", vresto)
+elif:
+print("Sem excesso!")
+
+7.
+meio_ambiente = float(input("Digite o índice de poluição: "))
+if meio_ambiente >= 0.05 and meio_ambiente <= 0.25:
+    print("Aceitavél!")
+elif meio_ambiente > 0.3 and meio_ambiente < 0.4:
+    print("1°Grupo tem que suspender as suas atividades!")
+elif meio_ambiente > 0.41 and meio_ambiente < 0.5:
+    print("1° e 2° Grupo tem que suspender as suas atividades!")
+else:
+    print("Todos os grupos teram que encerrar suas atividades!")
+    
+8.
+m = int(2);
+band = "V";
+numero = int(input("Digite o número: --> "))
+while ((band == "V") and (m < numero)):
+    if((numero % m) == 0):
+        band = "F";
+else:
+    m = m + 1;
+if (band == "V"):
+    print("É um número primo")
+else:      
+    print("Não é numero primo")
+    
+9.
+l1 = float(input("Insira o valor do lado1: --> "))
+l2 = float(input("Insira o valor do lado2: --> "))
+profundidade = float(input("Insira o valor da profundidade: --> "))
+total = l1*l2*profundidade
+print("O volume é: ", total)
