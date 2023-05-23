@@ -1,2 +1,2 @@
 # 2-ano-HT.2
-https://codecombat.com/images/pages/user/certificates/backgrounds/background-cs1.png
+blob:https://web.whatsapp.com/daed3166-6a0d-4486-a77b-4309e702fbb0
