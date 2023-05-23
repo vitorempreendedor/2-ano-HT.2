@@ -1,0 +1,92 @@
+ativ. 1
+1.
+nascimento=int(input("qual seu ano de nascimento? "))
+ano=int(input("qual ano atual? "))
+idade=ano-nascimento
+print("sua idade atual é", idade,"anos")
+futuro=int(input( "digite o ano em que deseja saber sua idade "))
+future=futuro-nascimento
+print("sua idade sera de",future,"anos")
+2.
+dolar=int(input("digite o valor em dolar que deseja tranforma em reais "))
+Valordolar=5.01
+reais =dolar*Valordolar
+print("sua quantia equivale a R$",reais,"reais")
+3.
+temperatura=float(input("digite quantos graus celsius deseja converter em fahrenheit ")) 
+conversão = (temperatura*9/5)+32
+print(" Temperatura em Fahrenheit equivale a", conversão, "graus")
+4.
+print(" CALCULE SE IMC")
+
+peso=float(input("Digite seu peso: "))
+altura=float(input("Digite sua altura em metros: "))
+imc=peso/(altura*altura)
+if imc < 18.5:
+    print("baixo peso")
+elif imc <= 24.9:
+    print("intervalo normal")
+elif imc <=29.9:
+    print("sobrepeso")
+elif imc <=34.9:
+    print("obesidade classe I")
+elif imc <=39.9:
+    print("obesidade classe II")
+elif imc <=40:
+    print("obesidade classe III")
+5.
+print(" BEM VINDO AO RESTAURANTE")
+print("Cardapio do dia")
+print("COMIDA...........PREÇO......codigo")
+print("cachorro quente-R$1,20-------100")
+print("bauru-----------R$1,30-------101")
+print("hambúrgur-------R$1,20-------102")
+print("cheeseburguer---R$1,30-------103 \n")
+print("BEBIDA..........PREÇO--------codigo")
+print("refrigerante----R$1,00-------104 \n")
+print("para finalização da compra---111")
+6.
+final = 0
+while True:
+c = int(input("Digite o codigo da comida que deseja: "))
+    if(c == 111):
+        break
+qtd = int(input("Digite a quantidade desejada: "))
+if c==100:
+    final = 1.20*qtd
+elif c==101:
+    final = 1.30*qtd      
+elif c==102:
+    final = 1.20*qtd
+elif c==103:
+    final = 1.30*qtd
+elif c==104:
+    final = 1.0*qtd
+print("seu pedido totalizou ",final, "reais")
+7.
+print("*******verificador de qual numero é maior*******")
+num1=int(input("numero 1: \n"))
+num2=int(input("numero 2: \n"))
+num3=int(input("numero 3: \n"))
+maior = num1
+if num2>num1 and num2>num3:
+    maior=num2
+if num3>num1 and num3>num2:
+    maior=num3
+menor = num1
+if num2<num1 and num2<num3:
+    menor=num2
+if num3<num1 and num3<num2:
+    menor=num3
+print("o menor numero é o", menor) 
+8.
+for n in range(1, 100):
+    if n %2==1:
+        print(n, end='' "\n")
+print("programa finalizado")
+9.
+print("CALCULADORA DE CONSUMO DE COMBUSTIVEL")
+g=int(input("Digite a distancia percorrida em quilometros: "))
+k=int(input("Digite a quantidade de litros 45do segundo abastecimento: "))
+media=g/k
+print("a media em quilometros por litro é", round(media), "litros")
